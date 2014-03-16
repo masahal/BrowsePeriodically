@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "Wenn alle Tabs geladen sind, einen geöffneten Tab fokussieren">
+<!ENTITY config "Einstellungen">
+<!ENTITY search "Suche">
+<!ENTITY closeByDoubleclick "Schließen per Doppelklick">
+<!ENTITY general "Allgemein">
+<!ENTITY advanced "Erweitert">
+<!ENTITY reuseTabs "Bestehende Tabs erneut benutzen">
+<!ENTITY disableContextMenu "Kontextmenü deaktivieren">
+<!ENTITY hideStatusbarButton "Schaltfläche in der Statusleiste verbergen">
+<!ENTITY periodicbrowsing "Periodisches Browsen">
+<!ENTITY focusOnAnotherTabWhenYouClose "Beim Schließen eines Tabs einen anderen fokussieren">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Diese Option ist für das Durchsuchen von Tabs in der Reihenfolge ihres Schließens. Sie können es zu einem linksstehenden und bislang nicht gesehenen Tab machen, indem Sie es schließen. Dies funktioniert unter Umständen nicht, wenn Sie ein anderes Add-On installiert haben, dass das Verhalten geschlossener Tabs regelt.">
+<!ENTITY periodicbrowsing-accesskey "P">
+<!ENTITY unregister-accesskey "D">
+<!ENTITY settings-accesskey "S">
+<!ENTITY dontBrowsePeriodically "Diese Seite nicht periodisch aufrufen">
+<!ENTITY intervalOfQuickRegister "Intervall von QuickRegister (Klick mit mittlerer Maustaste auf die Schaltfläche in der Statuszeile)">
+<!ENTITY url "URL">
+<!ENTITY title "Titel">
+<!ENTITY interval "Intervall">
+<!ENTITY dayOfTheWeek "Tag">
+<!ENTITY hour "Stunde">
+<!ENTITY delete "Entfernen">
+<!ENTITY browseNow "Jetzt aufrufen!">
+<!ENTITY getTitle "Titel abrufen">
+<!ENTITY getAllTitles "Alle Titel abrufen">
+<!ENTITY settingbyHour "Stellen Sie ein &quot;h&quot; hinter die Zahl (z.B. bei allen zwei Stunden: 2h), wenn Sie das Intervall pro Stunde einstellen möchten.">
+<!ENTITY menuEdit "Menü bearbeiten">
+<!ENTITY enabled "Aktiviert">
+<!ENTITY accesskey "Zugriffstaste">
+<!ENTITY widthOfIntervalHeader "70">
+<!ENTITY widthOfIntervalTextBox "85">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

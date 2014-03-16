@@ -1,0 +1,34 @@
+<!ENTITY autoFocus "すべてのタブがロードし終わったとき、自動的にフォーカスを合わせる">
+<!ENTITY config "設定">
+<!ENTITY search "Search">
+<!ENTITY closeByDoubleclick "ダブルクリックで閉じるように設定">
+<!ENTITY general "一般">
+<!ENTITY advanced "詳細">
+<!ENTITY reuseTabs "同じページを開いているタブを再利用する">
+<!ENTITY disableContextMenu "右クリックメニューを表示しない">
+<!ENTITY hideStatusbarButton "ステータスバーボタンを表示しない">
+<!ENTITY periodicbrowsing "定期的にチェック！">
+<!ENTITY focusOnAnotherTabWhenYouClose "（このアドオンが開いた）タブを閉じたとき別の左にあるタブに移動する">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "タブを閉じたときに順にタブを見ていくためのオプションです。 左にある、まだ表示してないタブに移動できます。タブを閉じる動作に関係あるアドオンを入れている場合、このオプションは働かない可能性があります。">
+<!ENTITY periodicbrowsing-accesskey "P">
+<!ENTITY unregister-accesskey "D">
+<!ENTITY settings-accesskey "S">
+<!ENTITY dontBrowsePeriodically "このページを定期的に表示しない">
+<!ENTITY ifBrowsingIntervalIsAWeekBrowseEvery "もし表示間隔が一週間なら以下の曜日に表示する">
+<!ENTITY intervalOfQuickRegister "クイック登録(ステータスバーボタンを中クリック)時の表示間隔">
+<!ENTITY url "URL">
+<!ENTITY title "タイトル">
+<!ENTITY interval "表示間隔">
+<!ENTITY dayOfTheWeek "曜日">
+<!ENTITY hour "時刻">
+<!ENTITY delete "削除">
+<!ENTITY browseNow "今すぐ表示">
+<!ENTITY getTitle "タイトルを取得">
+<!ENTITY getAllTitles "すべてのタイトルを取得">
+<!ENTITY settingbyHour "表示間隔を1時間単位で指定したい場合は、後ろに'h'を付けてください（例：2時間ごと→2h）。">
+<!ENTITY menuEdit "メニュー編集">
+<!ENTITY enabled "有効">
+<!ENTITY accesskey "アクセスキー">
+<!-- Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->
+<!ENTITY widthOfIntervalHeader "65">
+<!ENTITY widthOfIntervalTextBox "75">

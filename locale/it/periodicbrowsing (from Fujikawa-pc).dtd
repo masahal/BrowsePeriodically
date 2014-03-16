@@ -1,0 +1,36 @@
+<!ENTITY autoFocus "Dopo il caricamento di tutte le schede porta in primo piano la prima scheda aperta">
+<!ENTITY config "Impostazioni di Browse Periodically">
+<!ENTITY search "Cerca">
+<!ENTITY closeByDoubleclick "Chiudi le schede con doppio clic del mouse">
+<!ENTITY general "Generali">
+<!ENTITY advanced "Avanzate">
+<!ENTITY reuseTabs "Riutilizza le schede esistenti">
+<!ENTITY disableContextMenu "Disattiva il menu contestuale">
+<!ENTITY hideStatusbarButton "Nascondi l&apos;icona nella barra di stato">
+<!ENTITY periodicbrowsing "Browse Periodically">
+<!ENTITY focusOnAnotherTabWhenYouClose "Quando si chiude una scheda portare in primo piano quella accanto">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Selezionando questa opzione viene portata in primo piano la scheda a sinistra di quella che viene chiusa. Potrebbe non funzionare correttamente se sono installate altre estensioni per la gestione delle schede">
+<!ENTITY periodicbrowsing-accesskey "w">
+<!ENTITY unregister-accesskey "D">
+<!ENTITY settings-accesskey "I">
+<!ENTITY dontBrowsePeriodically "Non visitare periodicamente il sito web">
+<!ENTITY intervalOfQuickRegister "Imposta un intervallo di visita con clic centrale sull&apos;icona nella barra di stato ogni giorni:">
+<!ENTITY url "Indirizzo web">
+<!ENTITY title "Titolo">
+<!ENTITY interval "Intervallo">
+<!ENTITY dayOfTheWeek "Giorno">
+<!ENTITY hour "Ora">
+<!ENTITY delete "Elimina">
+<!ENTITY browseNow "Visita ora">
+<!ENTITY getTitle "Ottieni il titolo">
+<!ENTITY getAllTitles "Ottieni tutti i titoli">
+<!ENTITY settingbyHour "Per impostare gli intervalli di visita ai siti web in ore, inserire &quot;h&quot; dopo il numero. Es: per impostare un intervallo di visita ai siti web settimanale digitare semplicemente 7; per visitare i siti web ogni sette ore digitare 7h">
+<!ENTITY menuEdit "Accesskey">
+<!ENTITY enabled "Attivato">
+<!ENTITY accesskey "Accesskey">
+<!ENTITY widthOfIntervalHeader "55">
+<!ENTITY widthOfIntervalTextBox "65">
+<!-- 
+Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators.
+Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. 
+-->

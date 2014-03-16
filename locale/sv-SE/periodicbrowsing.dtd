@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "Fokusera på en öppnad flik när alla flikar har lästs in">
+<!ENTITY config "Inställningar">
+<!ENTITY search "Sök">
+<!ENTITY closeByDoubleclick "Dubbelklicka på öppnade sidor för att stänga dem">
+<!ENTITY general "Allmänt">
+<!ENTITY advanced "Avancerat">
+<!ENTITY reuseTabs "Återanvänd en flik om dess webbsida öppnas">
+<!ENTITY disableContextMenu "Inaktivera snabbmenyn">
+<!ENTITY hideStatusbarButton "Dölj statusfältknappen">
+<!ENTITY periodicbrowsing "Läs in regelbundet">
+<!ENTITY focusOnAnotherTabWhenYouClose "Gå åt vänster till nästa flik (öppnad av detta tillägg) när du stänger en flik">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Detta alternativ rör hur flikfokus beter sig när en flik stängs. Du kan gå åt vänster till en ännu inte visad flik genom att stänga den aktuella fliken. Det här kanske inte fungerar om du har installerat andra tillägg som påverkar beteendet för flikar som stängs.">
+<!ENTITY periodicbrowsing-accesskey "L">
+<!ENTITY unregister-accesskey "n">
+<!ENTITY settings-accesskey "I">
+<!ENTITY dontBrowsePeriodically "Läs inte in denna sida regelbundet">
+<!ENTITY intervalOfQuickRegister "Standardintervall vid snabbregistrering (mittenklicka statusfältknappen)">
+<!ENTITY url "URL">
+<!ENTITY title "Rubrik">
+<!ENTITY interval "Intervall">
+<!ENTITY dayOfTheWeek "Veckodag">
+<!ENTITY hour "Kl.">
+<!ENTITY delete "Ta bort">
+<!ENTITY browseNow "Läs in nu!">
+<!ENTITY getTitle "Hämta rubrik">
+<!ENTITY getAllTitles "Hämta alla rubriker">
+<!ENTITY settingbyHour "Skriv &quot;h&quot; efter numret (t.ex. var tredje timme: 3h) när du anger inläsningsintervall i timmar.">
+<!ENTITY menuEdit "Meny">
+<!ENTITY enabled "Aktiverat">
+<!ENTITY accesskey "Snabbtangent">
+<!ENTITY widthOfIntervalHeader "70">
+<!ENTITY widthOfIntervalTextBox "85">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

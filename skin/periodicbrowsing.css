@@ -1,0 +1,18 @@
+radio[pane] {
+	list-style-image: url("chrome://periodicbrowsing/skin/buttons.png");
+}
+radio[pane=prefGeneral] {
+	-moz-image-region: rect(0px, 32px, 32px, 0px);
+}
+radio[pane=prefGeneral]:hover, radio[pane=preGeneral][selected="true"] {
+	-moz-image-region: rect(32px, 32px,	64px, 0px)
+}
+radio[pane=prefAdvanced] {
+	-moz-image-region: rect(0px, 64px, 32px, 32px);
+}
+radio[pane=prefAdvanced]:hover, radio[pane=prefAdvanced][selected="true"] {
+	-moz-image-region: rect(32px, 64px,	64px, 32px)
+}
+radio[pane=prefMenuEdit] {
+	list-style-image: none;
+}

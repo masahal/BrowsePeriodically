@@ -1,0 +1,17 @@
+overlay chrome://browser/content/browser.xul chrome://periodicbrowsing/content/periodicbrowsing.xul
+resource periodicbrowsing	modules/
+
+content periodicbrowsing	content/
+locale	periodicbrowsing	ja			locale/ja/
+locale	periodicbrowsing	en-US		locale/en-US/
+locale	periodicbrowsing	de			locale/de/
+locale	periodicbrowsing	fr			locale/fr/
+locale	periodicbrowsing	it			locale/it/
+locale	periodicbrowsing	mk-MK		locale/mk-MK/
+locale	periodicbrowsing	nl-BE		locale/nl-BE/
+locale	periodicbrowsing	pl			locale/pl/
+locale	periodicbrowsing	pt-BR		locale/pt-BR/
+locale	periodicbrowsing	sv-SE		locale/sv-SE/
+locale	periodicbrowsing	tr			locale/tr/
+locale	periodicbrowsing	zh-CN		locale/zh-CN/
+skin	periodicbrowsing	classic/1.0	skin/

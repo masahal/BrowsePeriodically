@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "Focus op een geopende tab wanneer alle tabs geladen zijn">
+<!ENTITY config "Instellingen">
+<!ENTITY search "Zoeken">
+<!ENTITY closeByDoubleclick "geopende pagina's sluiten door dubbelklikken instellen">
+<!ENTITY general "Algemeen">
+<!ENTITY advanced "Geavanceerd">
+<!ENTITY reuseTabs "Hergebruik een tab om eenzelfde pagina te openen">
+<!ENTITY disableContextMenu "context menu uitschakelen">
+<!ENTITY hideStatusbarButton "Verberg statusbalk knop">
+<!ENTITY periodicbrowsing "Browse Periodically">
+<!ENTITY focusOnAnotherTabWhenYouClose "Focus on another left-hand tab(opened by this add-on) when you close a tab">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "This option is for browsing tabs in order by closing. You can move to a left-hand, and not viewed yet tab by closing. This may not work if you've installed other add-on related to behavior of closing tabs.">
+<!ENTITY periodicbrowsing-accesskey "P">
+<!ENTITY unregister-accesskey "D">
+<!ENTITY settings-accesskey "S">
+<!ENTITY dontBrowsePeriodically "Don't Browse this page periodically">
+<!ENTITY intervalOfQuickRegister "Interval of quick register(middle click status bar button)">
+<!ENTITY url "url">
+<!ENTITY title "Titel">
+<!ENTITY interval "Interval">
+<!ENTITY dayOfTheWeek "Day">
+<!ENTITY hour "Hour">
+<!ENTITY delete "Verwijderen">
+<!ENTITY browseNow "Browse Nu!">
+<!ENTITY getTitle "Titel ophalen">
+<!ENTITY getAllTitles "Alle titels ophalen">
+<!ENTITY settingbyHour "Put &quot;h&quot; after number (e.g. Every two hours : 2h) if you set browsing intervals by the hour.">
+<!ENTITY menuEdit "Menu Bewerken">
+<!ENTITY enabled "Ingeschakeld">
+<!ENTITY accesskey "Access Key">
+<!ENTITY widthOfIntervalHeader "70">
+<!ENTITY widthOfIntervalTextBox "85">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

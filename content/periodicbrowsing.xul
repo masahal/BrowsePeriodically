@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://periodicbrowsing/locale/periodicbrowsing.dtd" >
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<overlay id="periodicbrowsing" 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<stringbundleset id="stringbundleset"> 
+		<stringbundle id="periodicbrowsing-bundle" src="chrome://periodicbrowsing/locale/strings.properties" /> 
+	</stringbundleset> 
+	<keyset id="mainKeyset">
+		<key id="pb-unregister-key"
+			modifiers="accel,alt"    
+			key="U"
+			oncommand='periodicbrowsing.unregister();' />
+	</keyset>
+	<menupopup id="menu_ToolsPopup">
+		<menu id="pb-toolmenu" insertafter="devToolsSeparator" class="menu-iconic" label="&periodicbrowsing;" image="chrome://periodicbrowsing/skin/icon16x16.png" accesskey="&periodicbrowsing-accesskey;">
+<!--				  class="menu-iconic" image="chrome://hachecker/skin/hac16x16.png" -->
+        <menupopup id="pb-toolmenu-popup"> <!--  onpopupshowing="periodicbrowsing.pbMenuPopuped(event);" -->
+			<menuitem id="pb-toolmenu-unregister" label="&dontBrowsePeriodically;" accesskey="&unregister-accesskey;"  
+    		  oncommand='periodicbrowsing.unregister();'  key="pb-unregister-key"/>
+			<menuseparator id="pb-toolmenu-unregister-separator"/>
+<!--
+            <menuitem id="pb-toolmenu-every-hour" label="&everyHour;" accesskey="&register-everyHour-accesskey;"
+	  			oncommand='periodicbrowsing.register("1h");'/>
+            <menuitem id="pb-toolmenu-every-day" label="&everyDay;" accesskey="&register-everyDay-accesskey;"
+	  			oncommand='periodicbrowsing.register(1);'/>
+            <menuitem id="pb-toolmenu-every-week" label="&everyWeek;" accesskey="&register-everyWeek-accesskey;"
+	  			oncommand='periodicbrowsing.register(7);'/>
+            <menuitem id="pb-toolmenu-every-month" label="&everyMonth;" accesskey="&register-everyMonth-accesskey;"
+	  			oncommand='periodicbrowsing.register(30);'/>	  			
+-->
+			<menuseparator id="pb-toolmenu-config-separator"/>
+            <menuitem id="pb-contextmenu-config" label="&config;" accesskey="&settings-accesskey;"
+	  			oncommand='window.openDialog("chrome://periodicbrowsing/content/pbOption.xul", "Preferences", "chrome,titlebar,toolbar,centerscreen,modal","pref.general");'/>
+        </menupopup>
+		</menu>
+	</menupopup>
+
+	<menupopup id="contentAreaContextMenu">
+	    <menu id="pb-contextmenu" class="menu-iconic" label="&periodicbrowsing;" image="chrome://periodicbrowsing/skin/icon16x16.png" accesskey="&periodicbrowsing-accesskey;" 
+    	  insertbefore="frame-sep">
+<!--				  class="menu-iconic" image="chrome://hachecker/skin/hac16x16.png" -->
+        <menupopup id="pb-contextmenu-popup">
+			<menuitem id="pb-contextmenu-unregister" label="&dontBrowsePeriodically;" accesskey="&unregister-accesskey;"  
+    		  oncommand='periodicbrowsing.unregister();'  key="pb-unregister-key" />
+			<menuseparator id="pb-contextmenu-unregister-separator"/>
+<!--
+            <menuitem id="pb-contextmenu-every-hour" label="&everyHour;" accesskey="&register-everyHour-accesskey;"
+	  			oncommand='periodicbrowsing.register("1h");'/>
+            <menuitem id="pb-contextmenu-every-day" label="&everyDay;" accesskey="&register-everyDay-accesskey;"
+	  			oncommand='periodicbrowsing.register(1);'/>
+            <menuitem id="pb-contextmenu-every-week" label="&everyWeek;" accesskey="&register-everyWeek-accesskey;"
+	  			oncommand='periodicbrowsing.register(7);'/>
+            <menuitem id="pb-contextmenu-every-month" label="&everyMonth;" accesskey="&register-everyMonth-accesskey;"
+	  			oncommand='periodicbrowsing.register(30);'/>	  			
+-->
+			<menuseparator id="pb-contextmenu-config-separator"/>
+            <menuitem id="pb-contextmenu-config" label="&config;" accesskey="&settings-accesskey;"
+	  			oncommand='window.openDialog("chrome://periodicbrowsing/content/pbOption.xul", "Preferences", "chrome,titlebar,toolbar,centerscreen,modal","pref.general");'/>
+        </menupopup>
+		</menu>
+	</menupopup>
+	
+	<popupset id="mainPopupSet">
+       <menupopup id="pb-statusbar-panel-popup">
+			<menuitem id="pb-statusbar-panel-unregister" label="&dontBrowsePeriodically;" accesskey="&unregister-accesskey;"  
+    		  oncommand='periodicbrowsing.unregister();'  key="pb-unregister-key" />
+			<menuseparator id="pb-statusbar-panel-unregister-separator"/>
+
+			<menuseparator id="pb-statusbar-panel-config-separator"/>
+            <menuitem id="pb-statusbar-panel-config" label="&config;" accesskey="&settings-accesskey;"
+	  			oncommand='window.openDialog("chrome://periodicbrowsing/content/pbOption.xul", "Preferences", "chrome,titlebar,toolbar,centerscreen,modal","pref.general");'/>
+        </menupopup>
+	</popupset>
+	
+	<statusbar id="status-bar">
+		<statusbarpanel
+			id="brprPanel"
+			class="statusbarpanel-iconic-text"
+			onmousedown="periodicbrowsing.panelPressed(event);"
+			status="enabled"
+			image="chrome://periodicbrowsing/skin/disabledIcon16x16.png"
+			label=""
+			context="">
+		</statusbarpanel>
+	</statusbar>
+	<script type="application/x-javascript" src="chrome://periodicbrowsing/content/periodicbrowsing.js" />
+</overlay>

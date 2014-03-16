@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "Podczas wczytywania kart uaktywniaj otwartą kartę">
+<!ENTITY config "Ustawienia">
+<!ENTITY search "Szukaj">
+<!ENTITY closeByDoubleclick "Zamykaj strony za pomocą dwukrotnego kliknięcia">
+<!ENTITY general "Ogólne">
+<!ENTITY advanced "Zaawansowane">
+<!ENTITY reuseTabs "Użyj ponownie istniejące karty">
+<!ENTITY disableContextMenu "Nie wyświetlaj menu kontekstowego">
+<!ENTITY hideStatusbarButton "Nie wyświetlaj przycisku na pasku stanu">
+<!ENTITY periodicbrowsing "Przeglądaj cyklicznie">
+<!ENTITY focusOnAnotherTabWhenYouClose "Zamykając kartę uaktywniaj kartę po lewej stronie zamykanej">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Ta funkcja służy do uaktywniania karty znajdującej się po lewej stronie zamykanej karty. Może ona nie działać, jeśli jest zainstalowany inny dodatek przeznaczony do ustawiania zachowania zamykanych kart.">
+<!ENTITY periodicbrowsing-accesskey "C">
+<!ENTITY unregister-accesskey "N">
+<!ENTITY settings-accesskey "U">
+<!ENTITY dontBrowsePeriodically "Nie przeglądaj tej strony cyklicznie">
+<!ENTITY intervalOfQuickRegister "Interwał dla szybkiej rejestracji (kliknięcie ś.p.m. ikony na pasku stanu)">
+<!ENTITY url "Adres URL">
+<!ENTITY title "Tytuł">
+<!ENTITY interval "Interwał">
+<!ENTITY dayOfTheWeek "Dzień">
+<!ENTITY hour "Godzina">
+<!ENTITY delete "Usuń">
+<!ENTITY browseNow "Przeglądaj teraz!">
+<!ENTITY getTitle "Pobierz tytuł">
+<!ENTITY getAllTitles "Pobierz wszystkie tytuły">
+<!ENTITY settingbyHour "Jeśli określasz interwał przeglądania wg godzin na końcu liczby wstaw „h” (np. Co dwie godziny: 2h)">
+<!ENTITY menuEdit "Menu Edycja">
+<!ENTITY enabled "Włączone">
+<!ENTITY accesskey "Klawisz skrótu">
+<!ENTITY widthOfIntervalHeader "55">
+<!ENTITY widthOfIntervalTextBox "65">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

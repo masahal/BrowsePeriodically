@@ -1,0 +1,36 @@
+<!ENTITY autoFocus "Фокусирај на отворено јазиче кога сите јазичиња се вчитани">
+<!ENTITY config "Поставувања">
+<!ENTITY search "Пребарај">
+<!ENTITY closeByDoubleclick "Постави отворените страници да се затворат со двоен клик">
+<!ENTITY general "Општо">
+<!ENTITY advanced "Напредно">
+<!ENTITY reuseTabs "Искористи го повторно отворањето на јазиче на иста страница">
+<!ENTITY disableContextMenu "Исклучи го контекстуалното мени">
+<!ENTITY hideStatusbarButton "Скриј го копчето на статусната лента">
+<!ENTITY periodicbrowsing "Browse Periodically">
+<!ENTITY focusOnAnotherTabWhenYouClose "Фокусирај на друго јазиче од левата страна (отворено од овај додаток) кога ќе затворите јазиче">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Оваа опција е за прелистување на јазичиња по ред на затворање. Вие можите да го преместите на левата страна и сеуште непогледнатото јазиче со затворање.
+
+
+Ова можи да не работи ако вие имате инсталирано друг додаток поврзан со однесувањето на затворањето на јазичињата.">
+<!ENTITY periodicbrowsing-accesskey "П">
+<!ENTITY unregister-accesskey "И">
+<!ENTITY settings-accesskey "о">
+<!ENTITY dontBrowsePeriodically "Не ја прелистувај оваа страница периодично">
+<!ENTITY intervalOfQuickRegister "Интервал на брзо регитрирање (со среден клик на копчето на статусната лента)">
+<!ENTITY url "URL">
+<!ENTITY title "Наслов">
+<!ENTITY interval "Интервал">
+<!ENTITY dayOfTheWeek "Ден">
+<!ENTITY hour "Час">
+<!ENTITY delete "Избриши">
+<!ENTITY browseNow "Прелистај Сега!">
+<!ENTITY getTitle "Земи наслов">
+<!ENTITY getAllTitles "Земи ги сите наслови">
+<!ENTITY settingbyHour "Поставете &quot;h&quot; после бројот (пр. Секои два часа : 2h) ако го поставите интервалот на прелистување на часови.">
+<!ENTITY menuEdit "Уредување на Менито">
+<!ENTITY enabled "Вклучено">
+<!ENTITY accesskey "Копче за пристап">
+<!ENTITY widthOfIntervalHeader "55">
+<!ENTITY widthOfIntervalTextBox "65">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

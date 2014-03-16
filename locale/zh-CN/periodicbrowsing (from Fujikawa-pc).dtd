@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "当所有标签页载入完后聚焦一个已打开的标签页">
+<!ENTITY config "设置">
+<!ENTITY search "搜索">
+<!ENTITY closeByDoubleclick "双击关闭已打开页面">
+<!ENTITY general "常规">
+<!ENTITY advanced "高级">
+<!ENTITY reuseTabs "重复使用一个标签页打开一个相同页面">
+<!ENTITY disableContextMenu "禁用上下文文菜单">
+<!ENTITY hideStatusbarButton "隐藏状态栏按钮">
+<!ENTITY periodicbrowsing "Browse Periodically">
+<!ENTITY focusOnAnotherTabWhenYouClose "当关闭一个标签页时居中左侧标签页（通过本扩展打开）">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "这个选项用来浏览最近关闭的标签页。您可以移动到左边，不再查看已关闭标签页。如果您已经安装了其他与关闭标签页有关的扩展的话，这将可能不能生效。">
+<!ENTITY periodicbrowsing-accesskey "P">
+<!ENTITY unregister-accesskey "D">
+<!ENTITY settings-accesskey "S">
+<!ENTITY dontBrowsePeriodically "不要定期浏览此页面">
+<!ENTITY intervalOfQuickRegister "快速登记间隔（双击状态栏按钮）">
+<!ENTITY url "网址">
+<!ENTITY title "标题">
+<!ENTITY interval "间隔">
+<!ENTITY dayOfTheWeek "天">
+<!ENTITY hour "小时">
+<!ENTITY delete "删除">
+<!ENTITY browseNow "现在浏览！">
+<!ENTITY getTitle "索取标题">
+<!ENTITY getAllTitles "获取所有标题">
+<!ENTITY settingbyHour "数字后加个&quot;h&quot;（例如,每两小时：2h）如果你以小时来设置浏览间隔。">
+<!ENTITY menuEdit "菜单编辑">
+<!ENTITY enabled "启用">
+<!ENTITY accesskey "访问快捷键">
+<!ENTITY widthOfIntervalHeader "70">
+<!ENTITY widthOfIntervalTextBox "85">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

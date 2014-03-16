@@ -1,0 +1,37 @@
+<!ENTITY autoFocus "Focus on a opened tab when all tabs have been loaded">
+<!ENTITY config "Settings">
+<!ENTITY search "Search">
+<!ENTITY closeByDoubleclick "Set opened pages to close by double click">
+<!ENTITY general "General">
+<!ENTITY advanced "Advanced">
+<!ENTITY reuseTabs "Reuse a tab opening a same page">
+<!ENTITY disableContextMenu "Disable context menu">
+<!ENTITY hideStatusbarButton "Hide statusbar button">
+<!ENTITY periodicbrowsing "Browse Periodically">
+<!ENTITY focusOnAnotherTabWhenYouClose "Focus on another left-hand tab(opened by this add-on) when you close a tab">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "This option is for browsing tabs in order by closing. You can move to a left-hand, and not viewed yet tab by closing. This may not work if you've installed other add-on related to behavior of closing tabs.">
+<!ENTITY periodicbrowsing-accesskey "P">
+<!ENTITY unregister-accesskey "D">
+<!ENTITY settings-accesskey "S">
+<!ENTITY dontBrowsePeriodically "Don't Browse this page periodically">
+<!ENTITY intervalOfQuickRegister "Interval of quick register(middle click status bar button)">
+<!ENTITY url "URL">
+<!ENTITY title "Title">
+<!ENTITY interval "Interval">
+<!ENTITY dayOfTheWeek "Day">
+<!ENTITY hour "Hour">
+<!ENTITY delete "Delete">
+<!ENTITY browseNow "Browse Now!">
+<!ENTITY getTitle "Get title">
+<!ENTITY getAllTitles "Get all titles">
+<!ENTITY settingbyHour "Put &quot;h&quot; after number (e.g. Every two hours : 2h) if you set browsing intervals by the hour.">
+<!ENTITY menuEdit "Menu Edit">
+<!ENTITY enabled "Enabled">
+<!ENTITY accesskey "Access Key">
+<!-- 
+Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. 
+Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are.
+<!ENTITY widthOfIntervalHeader "70">
+<!ENTITY widthOfIntervalTextBox "85">
+ -->
+ 

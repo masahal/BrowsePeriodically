@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://periodicbrowsing/skin/periodicbrowsing.css" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://periodicbrowsing/locale/periodicbrowsing.dtd">
+
+<prefwindow id="periodicbrowsing.pref" title="&config;"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	onload="pbOption.Init();"
+	ondialogaccept="return pbOption.onDialogAccept()">
+
+	<prefpane id="prefGeneral" label="&general;">
+		<preferences/>
+		<stringbundleset id="pb-pref-sbs">
+			<stringbundle id="pb-pref-bundle" src="chrome://periodicbrowsing/locale/strings.properties"/>
+		</stringbundleset>
+		<hbox align="center">
+			<label value="&search;"/>
+		<textbox id="seachPages" oninput="pbOption.searchPages()" width="400" />
+		</hbox>
+		<grid>
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row align="center">
+					<listbox id="pref.general.urilist" onselect="pbOption.uriListSelected()">
+						<listhead>
+							<listheader label="&url;"/>
+							<listheader label="&title;"/>
+							<listheader id="listheader.interval" label="&interval;"/>
+							<listheader id="listheader.dayOfTheWeek" label="&dayOfTheWeek;"/>
+							<listheader label="&hour;"/>
+						</listhead>
+						<listcols>
+							<listcol width="250"/>
+							<listcol flex="1"/>
+							<listcol width="85"/>
+							<listcol width="100"/>
+							<listcol width="60"/>
+						</listcols>
+					</listbox>
+					<button id="delbut" label="&delete;" oncommand="pbOption.listDelete('pref.general.urilist');"/>
+				</row>
+				<separator class="thin"/>
+				<row align="center">
+					<hbox align="center">
+						<textbox id="pref.general.url" emptytext="&url;" width="250" oninput="pbOption.uriEdited()" onkeypress="pbOption.onKeyPress(event);"/>
+						<textbox id="pref.general.title" emptytext="&title;" flex="1" onkeypress="pbOption.onKeyPress(event);"/>
+						<menulist id="pref.general.interval" editable="true" width="85" label="&interval;" oncommand="pbOption.intervalIsChangted(event);" onkeypress="pbOption.onKeyPress(event);">
+							<menupopup>
+							</menupopup>
+						</menulist>
+						<menulist id="pref.general.dayList" editable="false" width="85" default="&dayOfTheWeek;" onkeypress="pbOption.onKeyPress(event);">
+      				<menupopup>
+      				</menupopup>
+						</menulist>
+						<textbox id="pref.general.hour" emptytext="00:00" width="60" onkeypress="pbOption.onKeyPress(event);"/>
+					</hbox>
+					<button id="pref.general.addUrl" oncommand="pbOption.addUri();"/>
+				</row>
+			</rows>
+		</grid>
+		<separator class="thin"/>
+		<hbox pack="center">
+			<button id="browseNow" label="&browseNow;" disabled="true" oncommand="pbOption.browseNow('pref.general.urilist'); window.close();"/>
+			<button id="getTitle" label="&getTitle;" disabled="true" oncommand="pbOption.getTitle('pref.general.urilist');"/>
+			<button id="getAllTitles" label="&getAllTitles;" oncommand="pbOption.getAllTitles('pref.general.urilist');"/>
+		</hbox>
+		<separator class="thin"/>
+		<description maxwidth="530">&settingbyHour;</description>
+		<separator height="10"/>
+	</prefpane>
+	<prefpane id="prefAdvanced" label="&advanced;">
+		<preferences>
+			<preference id="extensions.periodicbrowsing.advanced.reuseTabs" name="extensions.periodicbrowsing.advanced.reuseTabs" type="bool"/>
+			<preference id="extensions.periodicbrowsing.advanced.autoFocus" name="extensions.periodicbrowsing.advanced.autoFocus" type="bool"/>
+			<preference id="extensions.periodicbrowsing.advanced.focusOnAnotherTabWhenYouClose" name="extensions.periodicbrowsing.advanced.focusOnAnotherTabWhenYouClose" type="bool"/>
+			<preference id="extensions.periodicbrowsing.advanced.closeByDoubleclick" name="extensions.periodicbrowsing.advanced.closeByDoubleclick" type="bool"/>
+			<preference id="extensions.periodicbrowsing.advanced.browsingDayOfTheWeek" name="extensions.periodicbrowsing.advanced.browsingDayOfTheWeek" type="int"/>
+			<preference id="extensions.periodicbrowsing.advanced.intervalOfQuickRegister" name="extensions.periodicbrowsing.advanced.intervalOfQuickRegister" type="int"/>
+			<preference id="extensions.periodicbrowsing.advanced.disableContextMenu" name="extensions.periodicbrowsing.advanced.disableContextMenu" type="bool"/>
+			<preference id="extensions.periodicbrowsing.advanced.hideStatusbarButton" name="extensions.periodicbrowsing.advanced.hideStatusbarButton" type="bool"/>
+		</preferences>
+		<hbox align="center">
+			<label value="&intervalOfQuickRegister;"/>
+			<textbox width="30" preference="extensions.periodicbrowsing.advanced.intervalOfQuickRegister"/>
+		</hbox>
+        <separator class="thin"/>
+		<checkbox label="&reuseTabs;" preference="extensions.periodicbrowsing.advanced.reuseTabs" id="prefs.advanced.reuseTabs"/>
+		<checkbox label="&autoFocus;" preference="extensions.periodicbrowsing.advanced.autoFocus"  id="prefs.advanced.autoFocus"/>
+		<checkbox label="&focusOnAnotherTabWhenYouClose;" tooltiptext="&detailOfFocusOnAnotherTabWhenYouClose;" preference="extensions.periodicbrowsing.advanced.focusOnAnotherTabWhenYouClose"  id="prefs.advanced.focusOnAnotherTabWhenYouClose"/>
+		<checkbox label="&closeByDoubleclick;" preference="extensions.periodicbrowsing.advanced.closeByDoubleclick"  id="prefs.advanced.closeByDoubleclick"/>
+        <separator class="groove"/>
+		<checkbox label="&disableContextMenu;" preference="extensions.periodicbrowsing.advanced.disableContextMenu"  id="prefs.advanced.disableContextMenu"/>
+		<checkbox label="&hideStatusbarButton;" preference="extensions.periodicbrowsing.advanced.hideStatusbarButton"  id="prefs.advanced.hideStatusbarButton"/>
+	
+	</prefpane>
+	<prefpane id="prefMenuEdit" label="&menuEdit;">
+		<preferences/>
+		<hbox align="center">
+			<listbox id="pref.menuEdit.menulist" height="300">
+				<listhead>
+					<listheader label="&enabled;"/>
+					<listheader label="&interval;"/>
+					<listheader id="listheader.accesskey" label="&accesskey;"/>
+				</listhead>
+				<listcols>
+					<listcol width="80"/>
+					<listcol width="80"/>
+					<listcol width="110"/>
+				</listcols>
+			</listbox>
+			<button id="menuEdit.editButton" oncommand="pbOption.menuListEdit();"/>
+		</hbox>
+	</prefpane>
+	
+	<script type="application/x-javascript" src="pbOption.js"/>
+</prefwindow>

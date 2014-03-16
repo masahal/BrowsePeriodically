@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>periodicbrowsing@masahal.info</em:id>
+		<em:type>2</em:type>
+		<em:version>0.8.1.2</em:version>
+		<em:name>Browse Periodically</em:name>
+		<em:description>Browse sites you want to check periodically(every hour, day, week, month and so on). You can also use for reminding pages, for example, by browsing every month.</em:description>
+		<em:homepageURL>http://masahal.web.fc2.com/</em:homepageURL>
+		<em:creator>masahal</em:creator>
+		<em:contributor>Leszek(teo)Życzkowski</em:contributor>
+		<em:translator>Leszek(teo)Życzkowski  Polski</em:translator>
+		<em:translator>Christian Liebel (de)</em:translator>
+		<em:translator>ioreker (fr)</em:translator>
+		<em:translator>Luana Di Muzio - BabelZilla (it)</em:translator>
+		<em:translator>renegade06 (mk-MK)</em:translator>
+		<em:translator>ElkIT (nl-BE)</em:translator>
+		<em:translator>Edgard Dias Magalhaes (pt-BR)</em:translator>
+		<em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+		<em:translator>alfapegasi (tr)</em:translator>
+		<em:translator>BruceH (zh-CN)</em:translator>
+		<em:iconURL>chrome://periodicbrowsing/skin/icon32x32.png</em:iconURL>
+		<em:optionsURL>chrome://periodicbrowsing/content/pbOption.xul</em:optionsURL>
+		
+		<em:targetApplication>
+			<!-- Firefox -->
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>9.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>

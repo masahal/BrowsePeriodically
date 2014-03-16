@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "Tüm sekmeler yüklendiğinde açık bir sekmeye odaklan">
+<!ENTITY config "Ayarlar">
+<!ENTITY search "Ara">
+<!ENTITY closeByDoubleclick "Açık sayfaları çift tıkla kapalı yap">
+<!ENTITY general "Genel">
+<!ENTITY advanced "İleri">
+<!ENTITY reuseTabs "Aynı sayfayı açarak sekmeyi yeniden kullan">
+<!ENTITY disableContextMenu "İçerik menüsünde gösterme">
+<!ENTITY hideStatusbarButton "Durum çubuğu tuşunu gizle">
+<!ENTITY periodicbrowsing "Düzenli Gözat">
+<!ENTITY focusOnAnotherTabWhenYouClose "Sekme kapatırken (bu eklentiyle açılmış) soldaki bir başka sekmeye odaklan">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Kapatma sırasıyla sekmelere gözatma seçeneği. Henüz görünmeyen, soldaki sekmeye, kapatarak gidebilirsiniz. Sekme kapatma davranışı gösteren başka bir eklenti kurduysanız, bu yöntem çalışmayabilir.">
+<!ENTITY periodicbrowsing-accesskey "G">
+<!ENTITY unregister-accesskey "K">
+<!ENTITY settings-accesskey "A">
+<!ENTITY dontBrowsePeriodically "Bu sayfaya düzenli gözatma">
+<!ENTITY intervalOfQuickRegister "Hızlı kayıt süresi (orta tuşla, durum çubuğu tuşuna tıkla)">
+<!ENTITY url "URL">
+<!ENTITY title "Başlık">
+<!ENTITY interval "Aralık">
+<!ENTITY dayOfTheWeek "Gün">
+<!ENTITY hour "Saat">
+<!ENTITY delete "Sil">
+<!ENTITY browseNow "Şimdi Gözat!">
+<!ENTITY getTitle "Başlık getir">
+<!ENTITY getAllTitles "Tüm başlıkları getir">
+<!ENTITY settingbyHour "Gözatma süresini saatle yapılıyorsa saatin sonuna &quot;h&quot; koy (ör. her iki saatte bir : 2h).">
+<!ENTITY menuEdit "Düzenle Menüsü">
+<!ENTITY enabled "Etkin">
+<!ENTITY accesskey "Kısayol Tuşu">
+<!ENTITY widthOfIntervalHeader "70">
+<!ENTITY widthOfIntervalTextBox "85">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

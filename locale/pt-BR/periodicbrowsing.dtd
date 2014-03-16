@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "Foca em uma aba aberta quando todas as abas estiverem carregadas">
+<!ENTITY config "Configurações">
+<!ENTITY search "Busca">
+<!ENTITY closeByDoubleclick "Define que as páginas abertas sejam fechadas por clique duplo">
+<!ENTITY general "Geral">
+<!ENTITY advanced "Avançado">
+<!ENTITY reuseTabs "Reutilizar as abas existentes">
+<!ENTITY disableContextMenu "Desabilitar o menu de contexto">
+<!ENTITY hideStatusbarButton "Esconder o botão da barra de status">
+<!ENTITY periodicbrowsing "Buscar Periodicamente">
+<!ENTITY focusOnAnotherTabWhenYouClose "Foca em outra aba localizada à esquerda (aberta por este aplicativo) quando você fecha uma aba">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Esta opção serve para organizar o fechamento das abas. Uma aba ainda não aberta e situada à esquerda ficará ativa ao fechar outra então ativa. Isto pode não funcionar se você tiver instalado outro complemento relacionado ao fechamento de abas.">
+<!ENTITY periodicbrowsing-accesskey "P">
+<!ENTITY unregister-accesskey "D">
+<!ENTITY settings-accesskey "S">
+<!ENTITY dontBrowsePeriodically "Não Buscar esta pagina periodicamente">
+<!ENTITY intervalOfQuickRegister "Intervalo de registro rápido (clique com o botão do meio o botão da barra de status)">
+<!ENTITY url "Endereço">
+<!ENTITY title "Título">
+<!ENTITY interval "Intervalo">
+<!ENTITY dayOfTheWeek "Dia">
+<!ENTITY hour "Hora">
+<!ENTITY delete "Apagar">
+<!ENTITY browseNow "Buscar Agora!">
+<!ENTITY getTitle "Obter título">
+<!ENTITY getAllTitles "Obter todos os títulos">
+<!ENTITY settingbyHour "Ponha &quot;h&quot; depois do número (por exemplo, Cada duas horas: 2h) se você definir a navegação por intervalos de hora.">
+<!ENTITY menuEdit "Editar Menu">
+<!ENTITY enabled "Ativado">
+<!ENTITY accesskey "Chave de Acesso">
+<!ENTITY widthOfIntervalHeader "65">
+<!ENTITY widthOfIntervalTextBox "75">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

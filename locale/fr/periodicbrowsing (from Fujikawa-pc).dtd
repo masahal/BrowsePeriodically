@@ -1,0 +1,33 @@
+<!ENTITY autoFocus "À la fin du chargement de tous les onglets, sélectionner le dernier onglet ouvert">
+<!ENTITY config "Options">
+<!ENTITY search "Rechercher">
+<!ENTITY closeByDoubleclick "Autoriser la fermeture des onglets par double clic">
+<!ENTITY general "Général">
+<!ENTITY advanced "Avancé">
+<!ENTITY reuseTabs "Réutiliser le même onglet lors de l'actualisation d'une page">
+<!ENTITY disableContextMenu "Désactiver le menu contextuel">
+<!ENTITY hideStatusbarButton "Cacher le bouton de la barre d'état">
+<!ENTITY periodicbrowsing "Browse Periodically">
+<!ENTITY focusOnAnotherTabWhenYouClose "À la fermeture d'un onglet, sélectionner le prochain onglet non consulté à sa gauche">
+<!ENTITY detailOfFocusOnAnotherTabWhenYouClose "Cette option permet de naviguer entre les onglets dans un ordre particulier : quand vous fermez un onglet, le prochain onglet placé à sa gauche, chargé par « Browse Periodically » et encore jamais consulté devient l'onglet actif. Cela pourrait ne pas fonctionner si vous avez installé d'autres modules complémentaires relatifs au comportement des onglets.">
+<!ENTITY periodicbrowsing-accesskey "P">
+<!ENTITY unregister-accesskey "N">
+<!ENTITY settings-accesskey "O">
+<!ENTITY dontBrowsePeriodically "Ne pas visiter cette page périodiquement">
+<!ENTITY intervalOfQuickRegister "Intervalle utilisé par l'enregistrement rapide (clic milieu sur le bouton de la barre d'état)">
+<!ENTITY url "URL">
+<!ENTITY title "Titre">
+<!ENTITY interval "Intervalle">
+<!ENTITY dayOfTheWeek "Jour">
+<!ENTITY hour "Heure">
+<!ENTITY delete "Effacer">
+<!ENTITY browseNow "Visiter maintenant !">
+<!ENTITY getTitle "Obtenir le titre">
+<!ENTITY getAllTitles "Obtenir tous les titres">
+<!ENTITY settingbyHour "Ajoutez un « h » après le nombre si vous voulez un intervalle en heures (ex : toutes les deux heures : 2h).">
+<!ENTITY menuEdit "Édition du menu">
+<!ENTITY enabled "Activé">
+<!ENTITY accesskey "Raccourci clavier">
+<!ENTITY widthOfIntervalHeader "60">
+<!ENTITY widthOfIntervalTextBox "70">
+<!-- Below are extinct temporalilly because these adequate widths vary with OS and may confuse translators. Below are widths of objects "interval" is printed. If they are narrow in your language, widen them, if not, leave them as they are. -->

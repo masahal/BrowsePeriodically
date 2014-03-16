@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<project name="makeXPI" default="dist">
+	<property name="src.dir" value="." />
+	<property name="dist.dir" value="dist" />
+	<property name="app.name" value="periodicbrowsing" />
+	
+	<target name="dist">
+		<mkdir dir="${dist.dir}" />
+		<zip destfile="${dist.dir}/${app.name}.xpi">
+			<fileset dir="${src.dir}">
+				<include name="content/**" />
+				<include name="locale/**" />
+				<include name="skin/**" />
+				<exclude name="**/.*" />
+				<exclude name="**/CVS/**" />
+				<include name="chrome.manifest" />
+				<include name="install.rdf" />
+				<include name="defaults/**" />
+				<include name="modules/**" />
+				<exclude name="**/.*" />
+				<exclude name="**/CVS/**" />
+			</fileset>
+		</zip>
+	</target>
+</project>
